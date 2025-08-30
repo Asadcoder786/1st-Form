@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <center>
+        <h1><ins><b>STUDENT REGISTRATION FORM</b></ins></h1>
+    </center>
+    <form class="alltextcolor">
+        <p>
+            <label for="username"><b>FIRST NAME:</b></label>
+            <input type="text" name="FIRST NAME:" size="15" maxlength="20" placeholder="Enter Your First Name" required>
+            <label for="">(max 30 characters a-z and A-Z)</label>
+        </p>
+        <p>
+            <label for="username"><b>LAST NAME:</b></label>
+            <input type="text" name="LAST NAME:" size="15" maxlength="20" placeholder="Enter Your Last Name" >
+            <label for="">(max 30 characters a-z and A-Z)</label>
+        </p>
+
+        <p>
+            <label for="date"><b>DATE OF BIRTH:</b></label>
+            <input type="date" name="DATE OF BIRTH" required>
+        </p>
+        <p>
+            <label for="number"><b>PHONE NUMBER:</b></label>
+            <input type="number" name="PHONE NUMBER:" size="15" maxlength="11" placeholder="Enter Your Phone Number" required>
+            <label for="">(11 Digit Number)</label>
+        </p>
+        <p>
+            <label for="gender"><b>GENDER:</b></label>
+
+            <input type="radio" name="gender" value="male" checked="checked" >
+            <label for="MALE">MALE</label>
+            <input type="radio" name="gender" value="female">
+            <label for="FEMALE">FEMALE</label>
+            <input type="radio" name="gender" value="other">
+            <label for="OTHER">OTHER</label>
+
+        </p>
+
+        <p>
+            <label for="address"><b>ADDRESS:</b></label>
+            <br>
+            <textarea name="address" rows="4" cols="50" placeholder="Enter Your Address"></textarea>
+
+        </p>
+        <p>
+            <label for="city"><b>CITY:</b></label>
+            <input type="text" name="city" size="15" maxlength="30" placeholder="Enter Your City" required>
+            <label for="">(max 30 characters a-z and A-Z)</label>
+        </p>
+        <p>
+            <label for="pin"><b>PIN CODE:</b></label>
+            <input type="number" name="pin" size="15" maxlength="6" placeholder="Enter Your Pin Code">
+            <label for="">(max 6 digits)</label>
+        </p>
+        <p>
+            <label for="state"> <b>STATE:</b></label>
+            <input type="text" name="state" size="15" maxlength="30" placeholder="Enter Your State" required>
+            <label for="">(max 30 characters a-z and A-Z)</label>
+        </p>
+        <p>
+            <label for="country"> <b>COUNTRY:</b></label>
+            <input type=" text" name="country" size="15" maxlength="30" placeholder="Enter Your Country" required>
+
+
+        </p>
+        <p>
+            <label for="hobbies"> <b>HOBBIES:</b></label>
+            <input type="radio"  value="reading" checked>
+            <label for="reading">READING:</label>
+            <input type="radio"  value="cricket" >
+            <label for="cricket">CRICKET:</label>
+            <input type="radio"  value="sketching">
+            <label for="sketching">SKETCHING:</label>
+            <input type="radio"  value="gaming">
+            <label for="gaming">GAMING:</label>
+
+        </p>
+        <p>
+           <b> <label for="qualification">QUALIFICATION:</label></b>
+            <table border="1" class="center-table"
+                <tr>
+                    <th>SI.No.
+
+                    </th>
+                    <th>Examination:</th>
+                    <th>
+                        Board
+                    </th>
+                    <th>
+                        Percentage
+                    </th>
+                    <th> 
+                        Year of Passing
+                    </th>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>class X</td>
+                    <td><input type="text" name="board1" ></td>
+                    <td><input type="text" name="percentage1" ></td>
+                    <td><input type="text" name="year1"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Intermediate</td>
+                    <td><input type="text" name="board2"></td>
+                    <td><input type="text" name="percentage2"></td>
+                    <td><input type="text" name="year2"></td>
+                    
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="board3"></td>
+                    <td><input type="text" name="percentage3"></td>
+                    <td><input type="text" name="year4"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Master</td>
+                    <td><input type="text" name="board4"></td>
+                    <td><input type="text" name="percentage4"></td>
+                    <td><input type="text" name="year4"></td>
+                </tr>
+            </table>
+            
+
+        </p>
+        <p>
+        <label for="courses"><b>COURSES APPLIED FOR:</b></label> 
+        <input type="checkbox" name="courses" value="BCA"> BCA
+        <input type="checkbox" name="courses" value="B.com"> B.com
+        <input type="checkbox" name="courses" value="BBA"> BBA
+        </center>
+
+        </p>
+        <center>
+        
+            <label for="submit"SUBMIT >
+            <input type="submit" name="submit" value="SUBMIT" >
+        
+        
+    
+        
+
+        </p>
+
+
+
+    </form>
+
+
+</body
+ </html>

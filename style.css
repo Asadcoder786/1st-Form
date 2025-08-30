@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-color: rgba(138, 43, 226, 0.5);
+}
+form {
+    text-align: center;
+}
+.alltextcolor {
+    color: blue; 
+}
+
+input[type="submit"] {
+  background-color: rgba(138, 43, 226, 0.5);
+}
+ 
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
